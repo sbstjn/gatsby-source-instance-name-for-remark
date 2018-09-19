@@ -14,7 +14,7 @@
     "test": "jest",
     "test:cover": "jest --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "lint": "tslint {src,test}/**/*.ts",
+    "lint": "prettier **/*.ts --write",
     "build": "tsc",
     "prebuild": "rimraf ./gatsby-node.js"
   },
@@ -29,9 +29,11 @@
     "coveralls": "^2.13.1",
     "dot-json": "^1.0.3",
     "jest": "^20.0.4",
+    "prettier": "^1.14.2",
     "rimraf": "^2.6.2",
     "ts-jest": "^20.0.7",
     "tslint": "^5.5.0",
+    "tslint-config-prettier": "^1.15.0",
     "typescript": "^2.4.2"
   },
   "jest": {

@@ -1,9 +1,9 @@
 export interface Node {
   internal: {
-    type: string;
+    type: string
   }
   parent: {
-    sourceInstanceName: string;
+    sourceInstanceName: string
   }
 }
 
