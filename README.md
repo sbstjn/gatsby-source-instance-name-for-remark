@@ -1,5 +1,9 @@
 # Gatsby Plugin: Add SourceInstanceName to MarkdownRemark
 
+[![MIT License](https://badgen.now.sh/badge/License/MIT/blue)](https://github.com/sbstjn/gatsby-source-instance-name-for-remark/blob/master/LICENSE.md)
+[![CircleCI](https://badgen.net/circleci/github/sbstjn/gatsby-source-instance-name-for-remark)](https://circleci.com/gh/sbstjn/gatsby-source-instance-name-for-remark)
+[![NPM](https://badgen.net/npm/v/gatsby-source-instance-name-for-remark)](https://www.npmjs.com/package/gatsby-source-instance-name-for-remark)
+
 Add the `options.name` value from `gatsby-source-filesystem` to `MarkdownRemark` nodes for better filtering of different content types.
 
 ## Install
